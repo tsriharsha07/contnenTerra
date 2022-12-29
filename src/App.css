@@ -23,9 +23,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
+}
+.body1{
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  margin: 5px;
+  padding: auto;
 }
 
 @keyframes App-logo-spin {
