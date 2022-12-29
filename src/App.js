@@ -20,9 +20,8 @@ function App() {
             {item.data.title}
           </div>
           <div class="card-body">
-          <p class="card-text">{item.data.selftext_html}</p>
+            <p class="card-text">{item.data.selftext_html}</p>
             <h5 class="card-title">{item.data.score}</h5>
-            
             <a href={item.data.url} class="btn btn-primary">Go to the given link</a>
           </div>
         </div>
